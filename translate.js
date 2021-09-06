@@ -25,7 +25,7 @@ export class Translate {
   checkIfRobberLanguage () {
     let isRobberLanguage = true
     for (let i = 0; i < this.textInput.length; i++) {
-      if (!isRobberLanguage) return isRobberLanguage
+      if (!isRobberLanguage) break
       this._consonantList.forEach(x => {
         try {
           if (this.textInput[i].toLowerCase() === x) {
