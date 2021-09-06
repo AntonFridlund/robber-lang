@@ -1,0 +1,16 @@
+{
+  "name": "workshop-1",
+  "version": "1.0.0",
+  "description": "Programming in group",
+  "main": "src/main.go",
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+  "contributors": [
+    "Anton Fridlund",
+    "Sanna Doolk"
+  ],
+  "author": "",
+  "license": "MIT",
+  "private": true
+}
