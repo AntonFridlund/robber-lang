@@ -2,9 +2,10 @@
   "name": "workshop-1",
   "version": "1.0.0",
   "description": "Programming in group",
-  "main": "src/main.go",
+  "main": "app.js",
+  "type": "module",
   "scripts": {
-    "start": "node ./src/app.js"
+    "start": "node ./app.js"
   },
   "contributors": [
     "Anton Fridlund",
