@@ -4,7 +4,7 @@ let longSentence = 'Javascript? i marknadsföringssyfte skrivet JavaScript och f
 
 const translator = new Translate(longSentence)
 console.log(translator.toRobberLanguage())
-// console.log(translator.toNormalLanguage())
+//console.log(translator.toNormalLanguage())
 console.log(translator.getSentenceCount())
 console.log(translator.getTextInput())
 console.log(translator.checkIfRobberLanguage())
